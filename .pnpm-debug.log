@@ -1,0 +1,292 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "xdanku-fe",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "package": "svelte-kit package",
+        "preview": "vite preview",
+        "prepare": "svelte-kit sync",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+        "lint": "prettier --check --plugin-search-dir=. . && eslint .",
+        "format": "prettier --write --plugin-search-dir=. ."
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "@typescript-eslint/eslint-plugin": "^5.27.0",
+        "@typescript-eslint/parser": "^5.27.0",
+        "eslint": "^8.16.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-svelte3": "^4.0.0",
+        "prettier": "^2.6.2",
+        "prettier-plugin-svelte": "^2.7.0",
+        "svelte": "^3.44.0",
+        "svelte-check": "^2.7.1",
+        "svelte-preprocess": "^4.10.6",
+        "tslib": "^2.3.1",
+        "typescript": "^4.7.2",
+        "vite": "^2.9.13"
+      },
+      "type": "module"
+    },
+    "prefix": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/blasmesian/.local/share/pnpm/store/v3",
+    "virtualStoreDir": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.3.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-config-prettier",
+      "rawSpec": "^8.3.0"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.7.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^2.6.2"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.7.1",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "found_in_store"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.7.1",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/8.19.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "^8.16.0"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.19.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "15 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/eslint/8.19.0",
+    "size": 502436,
+    "status": "started"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-svelte3",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.7.0"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "20 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "size": 13112,
+    "status": "started"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "fetched"
+  },
+  "22 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "size": 49476,
+    "status": "started"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "fetched"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.8.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.7.1"
+    }
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.8.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "26 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-check/2.8.0",
+    "size": 688310,
+    "status": "started"
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vite/2.9.14",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vite",
+      "rawSpec": "^2.9.13"
+    }
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vite/2.9.14",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "29 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/vite/2.9.14",
+    "size": 1042515,
+    "status": "started"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.19.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "fetched"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.54",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-auto",
+      "rawSpec": "next"
+    }
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.54",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.6"
+    }
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "35 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "size": 22985,
+    "status": "started"
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.49.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.44.0"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.49.0",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "resolved"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe",
+    "status": "fetched"
+  },
+  "39 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte/3.49.0",
+    "size": 1442531,
+    "status": "started"
+  },
+  "40 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.361: wanted: {\"node\":\">=16.9\"} (current: {\"node\":\"v14.19.3\",\"pnpm\":\"7.5.0\"})",
+    "prefix": "/home/blasmesian/Data/Personal/Projects/TypeScript/xdanku-fe"
+  },
+  "41 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.361",
+    "wanted": {
+      "node": ">=16.9"
+    },
+    "current": {
+      "node": "v14.19.3",
+      "pnpm": "7.5.0"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.361: wanted: {\"node\":\">=16.9\"} (current: {\"node\":\"v14.19.3\",\"pnpm\":\"7.5.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.361: wanted: {\"node\":\">=16.9\"} (current: {\"node\":\"v14.19.3\",\"pnpm\":\"7.5.0\"})\n    at checkEngine (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:43094:16)\n    at checkPackage (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:43677:74)\n    at packageIsInstallable (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:43647:20)\n    at resolveAndFetch (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:93248:117)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async resolveDependency (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:122293:23)\n    at async resolveDependenciesOfDependency (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:122132:39)\n    at async Promise.all (index 1)\n    at async resolveDependencies (/usr/lib/node_modules/pnpm/dist/pnpm.cjs:122061:29)"
+    }
+  }
+}
