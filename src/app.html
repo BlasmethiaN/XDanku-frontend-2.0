@@ -4,9 +4,14 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      #full {
+        height: 100%;
+      }
+    </style>
 		%sveltekit.head%
 	</head>
 	<body>
-		<div>%sveltekit.body%</div>
+		<div id="full">%sveltekit.body%</div>
 	</body>
 </html>

@@ -11,7 +11,9 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$src: './src',
-			$lib: './src/lib'
+			$lib: './src/lib',
+			$assets: './src/assets',
+			$api: './src/api'
 		}
 	}
 }
